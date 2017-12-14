@@ -47,5 +47,5 @@ jobs:
   - task: smoke_test
     file: attendee-service-source/ci/tasks/smoke-test.yml
     params:
-      ATTENDEE_SERVICE_URL: ://attendee-service-eutherian-telecommunication.apps.cumuluslabs.io/  #<---- REPLACE ME
+      ATTENDEE_SERVICE_URL: attendee-service-eutherian-telecommunication.apps.cumuluslabs.io/  #<---- REPLACE ME
 
